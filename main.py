@@ -54,4 +54,4 @@ while True:
     print('Текст', values[0])
     print('Суд', values[1])
     print('Период', 'C', values['-IN-'], 'По', values['-IN2-'])
-window1.close()
+window.close()
