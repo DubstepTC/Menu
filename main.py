@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 
 sg.theme('DarkBlue')   # Add a touch of color
 # All the stuff inside your window.
-layout = [  [sg.Text('Добро пожаловать в наше приложение', pad=(100,30), font='Courier` 15')],
+layout = [  [sg.Text('Добро пожаловать в наше приложение', pad=(140,30), font='Courier` 15')],
             [sg.Text('Введите текст', pad=(5,30), font='Courier` 13', justification='left', size = (13, 1)), sg.MLine(size=(55,6), enter_submits=True)],
             [sg.Text('Суд', pad=(5,20), font='Courier` 13', justification='left', size = (13, 1)), sg.Combo(
              ['Верховный Суд РФ', 'Высший Арбитражный Суд РФ','АС Волго-Вятского округа',
@@ -42,7 +42,7 @@ layout = [  [sg.Text('Добро пожаловать в наше приложе
             [sg.Text('Период', pad=(5,10), font='Courier` 13', justification='left', size = (16, 1)), sg.CalendarButton('С', close_when_date_chosen=True,  target='-IN-', location=(750,500), no_titlebar=False, size =(5,1), pad=(20,0)),
              sg.Input(key='-IN-', size=(9,1), readonly=True, disabled_readonly_background_color='#335267'), sg.CalendarButton('По', close_when_date_chosen=True,  target='-IN2-', location=(750,500), no_titlebar=False, size =(5,1), pad=(20,0)),
              sg.Input(key='-IN2-', size=(9,1), readonly=True,disabled_readonly_background_color='#335267')],
-            [sg.Button('Ok', pad=(10,20), size=(10,2)), sg.Button('Cancel', size=(10,2))],]
+            [sg.Button('Ok', pad=(140,20), size=(15,2)), sg.Button('Cancel', pad=(0,20), size=(15,2))],]
 
 # Create the Window
 window = sg.Window('Aequum', layout,location=(700,450))
