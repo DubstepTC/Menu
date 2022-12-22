@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from menu import menu
+from excel import to_excel
 
 def selenium_det_cookies():
 
@@ -81,7 +82,7 @@ def get_context_25(cookies, text, courts, date_from, date_to):
         date_to = "2030-01-01T23:59:59"
     else:
         date_to = date_to.split()
-        date_to = date_to[0] + "T" + "00:00:00"
+        date_to = date_to[0] + "T" + "23:59:59"
 
     json_data = {
         'GroupByCase': False,
@@ -105,7 +106,11 @@ def get_context_25(cookies, text, courts, date_from, date_to):
                              json=json_data,
                              # proxies=proxies
                              )
-    answer = response.json()
+    try:
+        answer = response.json()
+    except:
+        print("Доступ запрещен, вас обнаружили, слишком много запросов")
+
     print(answer['Result']['PagesCount'], answer['Result']['TotalCount'])
     return answer
 
@@ -162,7 +167,7 @@ def get_into_and_search(text, parent_context, cookies):
                 json_answer_data.append(i)
                 break
         print("Итерация...")
-        time.sleep(1)
+        time.sleep(1.5)
     return json_answer_data
 
 
@@ -178,7 +183,7 @@ def main():
     cookies = selenium_det_cookies()
     data_page_1 = get_context_25(cookies, courts_search, text_search, date_from, date_to)
     answer = get_into_and_search(text_search, data_page_1, cookies)
-    print(answer)
+    to_excel(answer)
 
 
 
