@@ -1,15 +1,15 @@
-import json, time, requests
+import json
 import time
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from proxy import proxies
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from menu import menu
 
+def selenium_det_cookies():
 
-def main():
-    # Запускаем селениум
+    # Настройки
     options = Options()
     options.headless = False
     # циганская магия которая помогла обойти защиту
@@ -20,9 +20,15 @@ def main():
     # options.add_argument(f"--proxy-server-{proxies['https']}")
     driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
     driver.maximize_window()
+
+    # Запускаем селениум
     driver.get("https://ras.arbitr.ru")
+
+    # Находим кнопку
     btn_submit = driver.find_element(By.XPATH, "//*[@id=\"b-form-submit\"]/div/button")
     btn_submit.click()
+
+    # Получаем куки
     time.sleep(7)
     cookiess = driver.get_cookies()
     cookies = {}
@@ -31,26 +37,22 @@ def main():
     # проверка получили ли мы нужные куки
     if "wasm" in cookies.keys():
         print("Нужные куки получены")
-    print(cookies)
+        return cookies
+    else: print("Что-то пошло не так")
 
-    # Для отправки запроса
-    # cookies = {
-    #     'CUID': '6f8302f1-1b0d-4972-a63e-d452ffe37471:ouexLSV98QYuZFAeidMBHA==',
-    #     '_ga': 'GA1.2.2137527451.1670217850',
-    #     '_ym_uid': '1670217850106978457',
-    #     '_ym_d': '1670217850',
-    #     'ASP.NET_SessionId': 'w1tpo30qwcwzxmm1pv1d0n4u',
-    #     'is_agree_privacy_policy': 'true',
-    #     '__ddg1_': 'b4jlbszVg4mIWLkVIGFf',
-    #     'pr_fp': '991ff8667cb35dc80204e4a53fbf748c0599ecfaba096a1783fb4a1bc1b0b4f3',
-    #     '_gid': 'GA1.2.1433893127.1671430957',
-    #     'rcid': '2af6eeb8-169a-4dd8-a2b3-f8a6326df2d0',
-    #     '_gat': '1',
-    #     '_gat_FrontEndTracker': '1',
-    #     '_dc_gtm_UA-157906562-1': '1',
-    #     '_ym_isad': '2',
-    #     'wasm' : "7c006427cb6caaee999cd70042a15979"
-    # }
+
+def courts_into_code(courts_name):
+    with open("static_data/courts_list.json", 'r', encoding="utf-8") as file:
+        data = json.load(file)
+
+    for key, value in data.items():
+        if courts_name == value:
+            return key
+
+
+
+def get_context_25(cookies, text, courts, date_from, date_to):
+
     headers_1 = {
         'authority': 'ras.arbitr.ru',
         'accept': 'application/json, text/javascript, */*',
@@ -69,19 +71,32 @@ def main():
         'x-requested-with': 'XMLHttpRequest',
     }
 
-    text_search = input("Введите слово которое хотите искать: ")
+    if date_from == '':
+        date_from = "2000-01-01T00:00:00"
+    else:
+        date_from = date_from.split()
+        date_from = date_from[0] + "T" + "00:00:00"
+
+    if date_to == '':
+        date_to = "2030-01-01T23:59:59"
+    else:
+        date_to = date_to.split()
+        date_to = date_to[0] + "T" + "00:00:00"
 
     json_data = {
         'GroupByCase': False,
         'Count': 25,
         'Page': 1,
-        'DateFrom': '2000-01-01T00:00:00',
-        'DateTo': '2030-01-01T23:59:59',
+        'DateFrom': date_from,
+        'DateTo': date_to,
         'Sides': [],
         'Judges': [],
         'Cases': [],
-        'Text': text_search,
+        'Text': text,
     }
+
+    if courts != '':
+        json_data["Courts"] = [courts_into_code(courts)]
 
     # запрос для получения всех совпадений от ras.arbitr.ru
     response = requests.post('https://ras.arbitr.ru/Ras/Search',
@@ -90,11 +105,11 @@ def main():
                              json=json_data,
                              # proxies=proxies
                              )
-    print(response.text)
+    answer = response.json()
+    print(answer['Result']['PagesCount'], answer['Result']['TotalCount'])
+    return answer
 
-    with open('pars_data/json_response.json', 'w', encoding="utf-8") as file:
-        file.write("")
-        json.dump(response.json(), file, indent=4, ensure_ascii=False)
+def get_into_and_search(text, parent_context, cookies):
 
     headers_2 = {
         'authority': 'ras.arbitr.ru',
@@ -115,17 +130,14 @@ def main():
     }
 
     data = {
-        'hilightText': text_search,
+        'hilightText': text,
     }
-
-    with open('pars_data/json_response.json', 'r', encoding="utf-8") as file:
-        json_response_data = json.load(file)
 
     json_answer_data = []
 
-    text_split_search = text_search.split()
+    text_split_search = text.split()
 
-    for i in json_response_data['Result']['Items']:
+    for i in parent_context['Result']['Items']:
 
         response_2 = requests.post(
             'https://ras.arbitr.ru/Ras/HtmlDocument/' + i['Id'],
@@ -151,11 +163,22 @@ def main():
                 break
         print("Итерация...")
         time.sleep(1)
+    return json_answer_data
 
 
+def main():
 
-    print(json_answer_data)
+    values = menu()
+    text_search = values[0]
+    courts_search = values[1]
+    date_from = values['-IN-']
+    date_to = values['-IN2-']
 
+
+    cookies = selenium_det_cookies()
+    data_page_1 = get_context_25(cookies, courts_search, text_search, date_from, date_to)
+    answer = get_into_and_search(text_search, data_page_1, cookies)
+    print(answer)
 
 
 
