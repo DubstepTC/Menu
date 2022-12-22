@@ -1,29 +1,36 @@
-import json
+import json, time, requests
 import time
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from proxy import proxies
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+
 
 def main():
     # Запускаем селениум
     options = Options()
-    options.headless = True
+    options.headless = False
+    # циганская магия которая помогла обойти защиту
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    # прокси для избежания блокировки
+    # options.add_argument(f"--proxy-server-{proxies['https']}")
     driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
-    driver.set_window_size(1440, 900)
+    driver.maximize_window()
     driver.get("https://ras.arbitr.ru")
-    btn_submit = driver.find_element(By.ID, "b-form-submit")
+    btn_submit = driver.find_element(By.XPATH, "//*[@id=\"b-form-submit\"]/div/button")
     btn_submit.click()
-    time.sleep(10)
+    time.sleep(7)
     cookiess = driver.get_cookies()
     cookies = {}
     for ck in cookiess:
-        print(ck)
-        if ck['name'] != 'tmr_lvidTS' and ck['name'] != 'tmr_lvid' and  ck['name'] != 'tmr_detect':
-            cookies[ck["name"]] = ck['value']
-        elif ck['name'] == 'tmr_lvid':
-            cookies["wasm"] = ck['value']
+        cookies[ck["name"]] = ck['value']
+    # проверка получили ли мы нужные куки
+    if "wasm" in cookies.keys():
+        print("Нужные куки получены")
     print(cookies)
 
     # Для отправки запроса
@@ -77,10 +84,16 @@ def main():
     }
 
     # запрос для получения всех совпадений от ras.arbitr.ru
-    response = requests.post('https://ras.arbitr.ru/Ras/Search', cookies=cookies, headers=headers_1, json=json_data)
+    response = requests.post('https://ras.arbitr.ru/Ras/Search',
+                             cookies=cookies,
+                             headers=headers_1,
+                             json=json_data,
+                             # proxies=proxies
+                             )
     print(response.text)
 
-    with open('json_response.json', 'a', encoding="utf-8") as file:
+    with open('pars_data/json_response.json', 'w', encoding="utf-8") as file:
+        file.write("")
         json.dump(response.json(), file, indent=4, ensure_ascii=False)
 
     headers_2 = {
@@ -105,7 +118,7 @@ def main():
         'hilightText': text_search,
     }
 
-    with open('json_response.json', 'r', encoding="utf-8") as file:
+    with open('pars_data/json_response.json', 'r', encoding="utf-8") as file:
         json_response_data = json.load(file)
 
     json_answer_data = []
@@ -119,11 +132,12 @@ def main():
             cookies=cookies,
             headers=headers_2,
             data=data,
+            # proxies=proxies
         )
-        with open('index.html', 'w', encoding="utf-8") as file:
+        with open('pars_data/index.html', 'w', encoding="utf-8") as file:
             file.write('')
             file.write(response_2.text)
-        with open('index.html', 'r', encoding="utf-8") as file:
+        with open('pars_data/index.html', 'r', encoding="utf-8") as file:
             hilight_text_data = file.read()
 
         soup = BeautifulSoup(hilight_text_data, "lxml")
