@@ -1,0 +1,760 @@
+{
+    "Result": {
+        "PagesCount": 40,
+        "TotalCount": 32057311,
+        "NumOnPage": 25,
+        "Page": 1,
+        "ReturnCount": 1000,
+        "Years": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2025,
+            2026,
+            2028
+        ],
+        "Items": [
+            {
+                "Id": "6369b190-64ad-493c-9dcb-19df2bc96c7c",
+                "CaseId": "ff8ff34f-08c4-4877-8b46-91e977dd6485",
+                "RegistrationDate": "30.08.3021",
+                "InstanceNumber": "А41-43610/2021",
+                "CaseNumber": "А41-43610/2021",
+                "FileName": "А41-43610-2021__30210830.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Московской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "576b320a-ab1b-405a-90ff-6413b35ef1cd",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О прекращении производства по заявлению/жалобе"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "81acbc3e-1aa6-4ee9-b709-ab20ef6c80da",
+                "CaseId": "a5f7a946-fb10-4e91-831f-154483d440b2",
+                "RegistrationDate": "19.07.2607",
+                "InstanceNumber": "А31-2060/2011",
+                "CaseNumber": "А31-2060/2011",
+                "FileName": "А31-2060-2011__26070719.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Костромской области",
+                "TypeId": "23f4baa9-e7cc-407a-aba7-11dd8772aa3b",
+                "Type": "Решения и постановления",
+                "ContentTypesString": "1d294878-a2f8-471d-a55b-faee3b33da53,604E4A28-C7AC-48B2-8956-EEE078EF325B",
+                "DecisionTypeId": "68bac984-334a-4804-815e-e25df73af0a4",
+                "ContentTypes": [
+                    "Постановление суда апелляционной инстанции",
+                    "Судебный акт вышестоящего суда",
+                    "Оставить определение суда без изменения, жалобу без удовлетворения"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "34c58eaa-ec19-4495-876c-75785760c886",
+                "CaseId": "61c97b42-6716-4588-9109-233559de37f5",
+                "RegistrationDate": "28.01.2028",
+                "InstanceNumber": "А11-9330/2021",
+                "CaseNumber": "А11-9330/2021",
+                "FileName": "А11-9330-2021__20280128.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Владимирской области",
+                "TypeId": "23f4baa9-e7cc-407a-aba7-11dd8772aa3b",
+                "Type": "Решения и постановления",
+                "ContentTypesString": "1c35af3f-06d5-4b90-b4be-5a3c4148d8be",
+                "DecisionTypeId": "2d75b7fc-450b-4ae6-ae75-61a3ea5a825a",
+                "ContentTypes": [
+                    "Решение суда первой инстанции",
+                    "В иске отказать полностью"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "bca8d928-2266-410d-be5d-e15518b5dd1e",
+                "CaseId": "d366625b-ddda-4335-b754-9ba0e49df8e2",
+                "RegistrationDate": "25.07.2025",
+                "InstanceNumber": "А40-240093/2021",
+                "CaseNumber": "А40-240093/2021",
+                "FileName": "А40-240093-2021__20250725.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС города Москвы",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "0d2f4347-9a36-4d82-ad6d-2b459f261c98",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об отказе в удовлетворении ходатайства об обязании должника, руководителя, бывшего руководителя должника передать документы (имущество) арбитражному управляющему"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "5294e091-130b-4fe2-98ea-393bdd9e171d",
+                "CaseId": "a436bbc9-ce04-4be6-9332-8ddd9e736a86",
+                "RegistrationDate": "05.12.2023",
+                "InstanceNumber": "А63-19250/2022",
+                "CaseNumber": "А63-19250/2022",
+                "FileName": "А63-19250-2022__20231205.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Ставропольского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "781c25d7-84e3-4b33-ac63-216cc0fcfd25",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О прекращении производства по делу"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "5294e091-130b-4fe2-98ea-393bdd9e171d",
+                        "Organization": "",
+                        "Status": 0,
+                        "Owner": "a63.vrusanova@arbitr.ru",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1671009522000)/",
+                        "DateValidUntil": "/Date(1678667761000)/",
+                        "EffectiveDate": "/Date(1663115761000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1051924,
+                        "EffectiveDateString": "14.09.2022 3:36:01",
+                        "DateValidUntilString": "13.03.2023 3:36:01",
+                        "DateCheckString": "14.12.2022 12:18:42"
+                    }
+                ]
+            },
+            {
+                "Id": "69f2c9de-de65-422e-9a2c-efeb732bf406",
+                "CaseId": "e4d2ed5c-6aed-48a8-9870-c4f0eff70797",
+                "RegistrationDate": "01.12.2023",
+                "InstanceNumber": "А65-22483/2022",
+                "CaseNumber": "А65-22483/2022",
+                "FileName": "А65-22483-2022__20231201.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Татарстан",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "2ddc23ae-bea2-4486-ae82-65f360f9d93c",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Принять к рассмотрению требование кредитораНазначить судебное заседание по рассмотрению требования кредитора (ст.71, ст.100 ФЗ О несостоятельности)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "69f2c9de-de65-422e-9a2c-efeb732bf406",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ ТАТАРСТАН",
+                        "Status": 0,
+                        "Owner": "Сотов Артем Сергеевич",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1669940519093)/",
+                        "DateValidUntil": "/Date(1679905389000)/",
+                        "EffectiveDate": "/Date(1640593389000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1055627,
+                        "EffectiveDateString": "27.12.2021 11:23:09",
+                        "DateValidUntilString": "27.03.2023 11:23:09",
+                        "DateCheckString": "02.12.2022 3:21:59"
+                    }
+                ]
+            },
+            {
+                "Id": "fe3c94e2-5247-4538-b0a7-b70a8caf9ecb",
+                "CaseId": "5dad98f1-bc8c-4d72-b133-78fb496ed966",
+                "RegistrationDate": "24.11.2023",
+                "InstanceNumber": "А32-44635/2022",
+                "CaseNumber": "А32-44635/2022",
+                "FileName": "А32-44635-2022__20231124.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Краснодарского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "82a2142a-1ed7-4958-80d4-576055f746f4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об установлении размера вознаграждения арбитражного управляющего"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "d106ca5c-bece-4f9e-aacb-58fccd4ff26b",
+                "CaseId": "51467ccc-8a5e-48fd-ab49-144f846eb31b",
+                "RegistrationDate": "08.11.2023",
+                "InstanceNumber": "А33-1159/2021",
+                "CaseNumber": "А33-1159/2021",
+                "FileName": "А33-1159-2021__20231108.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Красноярского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "1f748e0e-41c5-400d-ad96-dcbbc17040bd",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Отложить судебное заседание по рассмотрению ходатайства (заявления, запроса)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "d106ca5c-bece-4f9e-aacb-58fccd4ff26b",
+                        "Organization": "АРБИТРАЖНЫЙ СУД КРАСНОЯРСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "Двалидзе Наталья Викторовна",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1670309060247)/",
+                        "DateValidUntil": "/Date(1680151938000)/",
+                        "EffectiveDate": "/Date(1640839938000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1024367,
+                        "EffectiveDateString": "30.12.2021 7:52:18",
+                        "DateValidUntilString": "30.03.2023 7:52:18",
+                        "DateCheckString": "06.12.2022 9:44:20"
+                    }
+                ]
+            },
+            {
+                "Id": "92491f70-d45b-4ccd-b294-221cfed2102e",
+                "CaseId": "1357ed24-f3e8-4005-9e4d-fc7b4232f20d",
+                "RegistrationDate": "21.10.2023",
+                "InstanceNumber": "А40-170091/2022",
+                "CaseNumber": "А40-170091/2022",
+                "FileName": "А40-170091-2022__20231021.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС города Москвы",
+                "TypeId": "23f4baa9-e7cc-407a-aba7-11dd8772aa3b",
+                "Type": "Решения и постановления",
+                "ContentTypesString": "1c35af3f-06d5-4b90-b4be-5a3c4148d8be",
+                "DecisionTypeId": "ca17ae6e-adb5-453a-8fc1-e54d7a39dd1b",
+                "ContentTypes": [
+                    "Решение суда первой инстанции",
+                    "Иск удовлетворить полностью"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "92491f70-d45b-4ccd-b294-221cfed2102e",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ГОРОДА МОСКВЫ",
+                        "Status": 0,
+                        "Owner": "Лаптев Василий Андреевич",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1666591806000)/",
+                        "DateValidUntil": "/Date(1681189358000)/",
+                        "EffectiveDate": "/Date(1641877358000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 993023,
+                        "EffectiveDateString": "11.01.2022 8:02:38",
+                        "DateValidUntilString": "11.04.2023 8:02:38",
+                        "DateCheckString": "24.10.2022 9:10:06"
+                    }
+                ]
+            },
+            {
+                "Id": "b82b96be-89aa-4d72-997d-60df7c476bcd",
+                "CaseId": "01872de7-2f59-4817-81b7-958edc3bc998",
+                "RegistrationDate": "22.09.2023",
+                "InstanceNumber": "А62-897/2022",
+                "CaseNumber": "А62-897/2022",
+                "FileName": "А62-897-2022__20230922.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Смоленской области",
+                "TypeId": "23f4baa9-e7cc-407a-aba7-11dd8772aa3b",
+                "Type": "Решения и постановления",
+                "ContentTypesString": "1c35af3f-06d5-4b90-b4be-5a3c4148d8be",
+                "DecisionTypeId": "2d75b7fc-450b-4ae6-ae75-61a3ea5a825a",
+                "ContentTypes": [
+                    "Решение суда первой инстанции",
+                    "В иске отказать полностью"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "b82b96be-89aa-4d72-997d-60df7c476bcd",
+                        "Organization": "АРБИТРАЖНЫЙ СУД СМОЛЕНСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Соловьева Анна Викторовна",
+                        "OwnerPost": "Заместитель председателя суда",
+                        "DateCheck": "/Date(1665174175000)/",
+                        "DateValidUntil": "/Date(1692497640000)/",
+                        "EffectiveDate": "/Date(1653617640000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 966220,
+                        "EffectiveDateString": "27.05.2022 5:14:00",
+                        "DateValidUntilString": "20.08.2023 5:14:00",
+                        "DateCheckString": "07.10.2022 23:22:55"
+                    }
+                ]
+            },
+            {
+                "Id": "3eac2042-5c99-4ace-92d1-e89388279664",
+                "CaseId": "e16c2665-5dae-4bc2-a15f-f41b43467f74",
+                "RegistrationDate": "22.07.2023",
+                "InstanceNumber": "А14-4226/2021",
+                "CaseNumber": "А14-4226/2021",
+                "FileName": "А14-4226-2021__20230722.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Воронежской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "5f6c5ffc-e9dc-4e32-abbd-8157d16d53ea",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об отказе в удовлетворении заявления/жалобы"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "bf173bbb-2a03-45fa-a186-6e0542c01aec",
+                "CaseId": "fdcb6704-d4a0-4fdb-97c4-291974439164",
+                "RegistrationDate": "15.06.2023",
+                "InstanceNumber": "А15-4099/2020",
+                "CaseNumber": "А15-4099/2020",
+                "FileName": "А15-4099-2020__20230615.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Дагестан",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "8712e2f7-9057-4377-a924-84b80e966c4e",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об истребовании доказательств"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "cab29d4a-1dcd-4288-ae1a-060b9f1c0298",
+                "CaseId": "031db61e-7a37-4692-ae5f-246d1068bf4c",
+                "RegistrationDate": "13.06.2023",
+                "InstanceNumber": "А40-60360/2022",
+                "CaseNumber": "А40-60360/2022",
+                "FileName": "А40-60360-2022__20230613.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС города Москвы",
+                "TypeId": "23f4baa9-e7cc-407a-aba7-11dd8772aa3b",
+                "Type": "Решения и постановления",
+                "ContentTypesString": "1c35af3f-06d5-4b90-b4be-5a3c4148d8be",
+                "DecisionTypeId": "ca17ae6e-adb5-453a-8fc1-e54d7a39dd1b",
+                "ContentTypes": [
+                    "Решение суда первой инстанции",
+                    "Иск удовлетворить полностью"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "cab29d4a-1dcd-4288-ae1a-060b9f1c0298",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ГОРОДА МОСКВЫ",
+                        "Status": 0,
+                        "Owner": "Агеева Лидия Николаевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1652291202000)/",
+                        "DateValidUntil": "/Date(1681180758000)/",
+                        "EffectiveDate": "/Date(1641868758000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 819973,
+                        "EffectiveDateString": "11.01.2022 5:39:18",
+                        "DateValidUntilString": "11.04.2023 5:39:18",
+                        "DateCheckString": "11.05.2022 20:46:42"
+                    }
+                ]
+            },
+            {
+                "Id": "e04be6d1-c864-4a86-a59b-5080fbf039ae",
+                "CaseId": "5ec0b315-1bee-48fb-82a4-5e415898c163",
+                "RegistrationDate": "26.04.2023",
+                "InstanceNumber": "А07-28463/2021",
+                "CaseNumber": "А07-28463/2021",
+                "FileName": "А07-28463-2021__20230426.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Башкортостан",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "2475d734-44a0-4cb7-8b92-0ce352e561f9",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об оставлении заявления без движения"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "6b703c95-5277-42e8-8e78-1a31bdb642e1",
+                "CaseId": "cabe8215-46af-4ff3-a753-e91d485b37b1",
+                "RegistrationDate": "02.03.2023",
+                "InstanceNumber": "А32-22314/2022",
+                "CaseNumber": "А32-22314/2022",
+                "FileName": "А32-22314-2022__20230302.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Краснодарского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "82a2142a-1ed7-4958-80d4-576055f746f4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об установлении размера вознаграждения арбитражного управляющего"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "9b5cb41f-e4ca-495f-9e6b-6a9a03f79db8",
+                "CaseId": "72e3b47d-0580-4f27-8d72-734a2d09ef00",
+                "RegistrationDate": "14.02.2023",
+                "InstanceNumber": "А33-27961/2022",
+                "CaseNumber": "А33-27961/2022",
+                "FileName": "А33-27961-2022__20230214.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Красноярского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "14f000b7-bdc4-4ec6-b07b-ef81634b76c4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Принять к производству заявление о признании должника банкротомНазначить судебное заседание по рассмотрению обоснованности заявления о признании должника банкротом (ст.42 ФЗ О несостоятельности)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "b429834f-492f-4170-9ccd-3a8fe1d9d235",
+                "CaseId": "dd515f25-4438-4c4f-b4f4-c6993b87be45",
+                "RegistrationDate": "06.02.2023",
+                "InstanceNumber": "А14-4855/2021",
+                "CaseNumber": "А14-4855/2021",
+                "FileName": "А14-4855-2021__20230206.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Воронежской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "a8f9a76e-a573-456a-8599-bf88142eeccb",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О привлечении по делу в качестве третьего лица"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "602e15d0-8098-4c1b-abc1-e1734480739b",
+                "CaseId": "d7914a4a-c498-4568-8912-787c0b9d2ab0",
+                "RegistrationDate": "31.01.2023",
+                "InstanceNumber": "А79-9941/2022",
+                "CaseNumber": "А79-9941/2022",
+                "FileName": "А79-9941-2022__20230131.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Чувашской Республики",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "14f000b7-bdc4-4ec6-b07b-ef81634b76c4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Принять к производству заявление о признании должника банкротомНазначить судебное заседание по рассмотрению обоснованности заявления о признании должника банкротом (ст.42 ФЗ О несостоятельности)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "602e15d0-8098-4c1b-abc1-e1734480739b",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ЧУВАШСКОЙ РЕСПУБЛИКИ - ЧУВАШИИ",
+                        "Status": 0,
+                        "Owner": "ПАВЛОВА ОЛЬГА ЛЕОНИДОВНА",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1670496462623)/",
+                        "DateValidUntil": "/Date(1679885484000)/",
+                        "EffectiveDate": "/Date(1640573484000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1028588,
+                        "EffectiveDateString": "27.12.2021 5:51:24",
+                        "DateValidUntilString": "27.03.2023 5:51:24",
+                        "DateCheckString": "08.12.2022 13:47:42"
+                    }
+                ]
+            },
+            {
+                "Id": "13cfbb26-7d81-4614-ba7f-7d687768ba97",
+                "CaseId": "5ccf99e2-1911-4fe8-8bfa-c4e57e1fcded",
+                "RegistrationDate": "30.01.2023",
+                "InstanceNumber": "А61-3477/2022",
+                "CaseNumber": "А61-3477/2022",
+                "FileName": "А61-3477-2022__20230130.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Северная Осетия",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "ec1f27e6-004d-4118-a5fe-b543a3384bc5",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления об установлении размера требований кредиторов к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "13cfbb26-7d81-4614-ba7f-7d687768ba97",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ СЕВЕРНАЯ ОСЕТИЯ-АЛАНИЯ",
+                        "Status": 0,
+                        "Owner": "Бекоева Светлана Хадзибекировна",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1669809936000)/",
+                        "DateValidUntil": "/Date(1679465806000)/",
+                        "EffectiveDate": "/Date(1640153806000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1048639,
+                        "EffectiveDateString": "22.12.2021 9:16:46",
+                        "DateValidUntilString": "22.03.2023 9:16:46",
+                        "DateCheckString": "30.11.2022 15:05:36"
+                    }
+                ]
+            },
+            {
+                "Id": "29530a8a-be0e-46e4-b538-136b71a42fea",
+                "CaseId": "ec09b83f-d4bc-4118-9b59-3774bfb3071a",
+                "RegistrationDate": "30.01.2023",
+                "InstanceNumber": "А07-13006/2022",
+                "CaseNumber": "А07-13006/2022",
+                "FileName": "А07-13006-2022__20230130.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Башкортостан",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "2475d734-44a0-4cb7-8b92-0ce352e561f9",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об оставлении заявления без движения"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "8dcfd795-6303-455e-9f57-572e80785e05",
+                "CaseId": "becb7a79-49c7-4280-9754-22a7f1d73273",
+                "RegistrationDate": "26.01.2023",
+                "InstanceNumber": "08АП-14610/2022",
+                "CaseNumber": "А46-3672/2021",
+                "FileName": "А46-3672-2021__20230126.pdf",
+                "InstanceLevel": 2,
+                "Court": "8 арбитражный апелляционный суд",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "62f69514-21be-48ce-9385-a5a6a41fe350,fd10aa16-d09d-4d6b-8d70-3a59cf3619d5,2b57f861-106b-4a52-ba11-ac942f62cf7a",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Принять к производству апелляционную жалобуНазначить дело к судебному разбирательству (ст261 АПК)",
+                    "Принять к рассмотрению ходатайство (заявление)Назначить судебное заседание по рассмотрению ходатайства (заявления)",
+                    "Прочие вопросы (ст.184, 185 АПК, ФЗ О несостоятельности)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "8dcfd795-6303-455e-9f57-572e80785e05",
+                        "Organization": "ВОСЬМОЙ АРБИТРАЖНЫЙ АПЕЛЛЯЦИОННЫЙ СУД",
+                        "Status": 0,
+                        "Owner": "Аристова Екатерина Владимировна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1670330608150)/",
+                        "DateValidUntil": "/Date(1705035660000)/",
+                        "EffectiveDate": "/Date(1666155660000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1039470,
+                        "EffectiveDateString": "19.10.2022 8:01:00",
+                        "DateValidUntilString": "12.01.2024 8:01:00",
+                        "DateCheckString": "06.12.2022 15:43:28"
+                    }
+                ]
+            },
+            {
+                "Id": "663b5f28-8821-435b-8f77-5d0100d32635",
+                "CaseId": "db2b8801-db15-44b5-bd32-7db3518cc7c0",
+                "RegistrationDate": "17.01.2023",
+                "InstanceNumber": "А32-4124/2016",
+                "CaseNumber": "А32-4124/2016",
+                "FileName": "А32-4124-2016__20230117.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Краснодарского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "08363e91-ae8f-47c0-ab3b-1902688652e9",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О назначении судебного заседания"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "a2f5fcb0-5b00-4887-91ab-f326181ae463",
+                "CaseId": "f948d24d-5c7b-4065-b00e-93fbc2191b54",
+                "RegistrationDate": "16.01.2023",
+                "InstanceNumber": "А40-261837/2022",
+                "CaseNumber": "А40-261837/2022",
+                "FileName": "А40-261837-2022__20230116.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС города Москвы",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "cda08f09-b845-47a4-8c81-47ebc3d5214f",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об оставлении заявления о признании должника банкротом без движения"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "d60f7108-300e-44ae-921a-e54500186316",
+                "CaseId": "2aa08103-045d-40e0-8fa3-0f7a3232b8be",
+                "RegistrationDate": "10.01.2023",
+                "InstanceNumber": "03АП-7259/2022",
+                "CaseNumber": "А74-8054/2022",
+                "FileName": "А74-8054-2022__20230110.pdf",
+                "InstanceLevel": 2,
+                "Court": "3 арбитражный апелляционный суд",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "e629b692-6991-4856-a425-c89e3b341931",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Оставить без движения апелляционную жалобу (ст.263 АПК)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "d60f7108-300e-44ae-921a-e54500186316",
+                        "Organization": "ТРЕТИЙ АРБИТРАЖНЫЙ АПЕЛЛЯЦИОННЫЙ СУД",
+                        "Status": 0,
+                        "Owner": "Яковенко Игорь Васильевич",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1670239263443)/",
+                        "DateValidUntil": "/Date(1679966422000)/",
+                        "EffectiveDate": "/Date(1640654422000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1039810,
+                        "EffectiveDateString": "28.12.2021 4:20:22",
+                        "DateValidUntilString": "28.03.2023 4:20:22",
+                        "DateCheckString": "05.12.2022 14:21:03"
+                    }
+                ]
+            },
+            {
+                "Id": "82755c3f-0173-4565-a403-1c3905ff616f",
+                "CaseId": "feb17b77-b823-4a7b-a324-64b217ed1922",
+                "RegistrationDate": "09.01.2023",
+                "InstanceNumber": "А57-27034/2017",
+                "CaseNumber": "А57-27034/2017",
+                "FileName": "А57-27034-2017__20230109.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Саратовской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "fd10aa16-d09d-4d6b-8d70-3a59cf3619d5",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Принять к рассмотрению ходатайство (заявление)Назначить судебное заседание по рассмотрению ходатайства (заявления)"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "82755c3f-0173-4565-a403-1c3905ff616f",
+                        "Organization": "АРБИТРАЖНЫЙ СУД САРАТОВСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Рожкова Элина Владимировна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1670920261337)/",
+                        "DateValidUntil": "/Date(1682467052000)/",
+                        "EffectiveDate": "/Date(1643155052000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1040023,
+                        "EffectiveDateString": "26.01.2022 2:57:32",
+                        "DateValidUntilString": "26.04.2023 2:57:32",
+                        "DateCheckString": "13.12.2022 11:31:01"
+                    }
+                ]
+            }
+        ]
+    },
+    "Message": "",
+    "Success": true,
+    "ServerDate": "/Date(1671667196190)/"
+}
