@@ -17,33 +17,33 @@ response = requests.post('https://ras.arbitr.ru/Ras/Search',
 ```
 
 Где json_data данные, которые мы вбили в меню, в формате
-```json
-    json_data = {
-        'GroupByCase': False,
-        'Count': 25,
-        'Page': 1,
-        'DateFrom': date_from,
-        'DateTo': date_to,
-        'Sides': [],
-        'Judges': [],
-        'Cases': [],
-        'Text': text,
-    }
+```
+json_data = {
+    'GroupByCase': False,
+    'Count': 25,
+    'Page': 1,
+    'DateFrom': date_from,
+    'DateTo': date_to,
+    'Sides': [],
+    'Judges': [],
+    'Cases': [],
+    'Text': text,
+}
 ```
 Результатом запроса будет json в котором будут все документы с найденной строкой с учетом склонений падежей и т.п
 4.	Далее мы с учетом полученных данных делаем второй запрос, который используется для просмотра конкретного дела, он имеет вид:
 ```python
-        response = requests.post(
-            'https://ras.arbitr.ru/Ras/HtmlDocument/' + Id документа,
-            cookies=cookies,
-            headers=headers,
-            data=data)
+response = requests.post(
+    'https://ras.arbitr.ru/Ras/HtmlDocument/' + Id документа,
+    cookies=cookies,
+    headers=headers,
+    data=data)
 ```
 где data:
-```json
-    data = {
-        'hilightText': text,
-    }
+```
+data = {
+    'hilightText': text,
+}
 ```
 Дело в том, что при указании этого параметра, в браузере найденные совпадения по строке, которую мы ввели, подсвечиваются желтым цветом 
 5.	На четвертом этапе мы считываем html страницу и ищем теги <span> которому присвоен класс “g-highlight”. В итоге мы получаем массив слов, и чтобы проверить совпадает ли полностью наша строка тому, что написано на сайте мы ищем подмассив слов (который является нашей строкой поиска) в массиве найденых слов, и если получено точное совпадение, данные о документе записываются в результирующий массив
