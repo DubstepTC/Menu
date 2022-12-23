@@ -1,6 +1,12 @@
 import json
+import os
+import sys
+import threading
 import time
+from random import uniform
+
 import requests
+from multiprocessing import Process
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -8,11 +14,13 @@ from selenium.webdriver.common.by import By
 from menu import menu
 from excel import to_excel
 
+
+WORK = True
 def selenium_det_cookies():
 
     # Настройки
     options = Options()
-    options.headless = False
+    options.headless = True
     # циганская магия которая помогла обойти защиту
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
@@ -39,7 +47,9 @@ def selenium_det_cookies():
     if "wasm" in cookies.keys():
         print("Нужные куки получены")
         return cookies
-    else: print("Что-то пошло не так")
+    else:
+        print("Что-то пошло не так")
+        WORK = False
 
 
 def courts_into_code(courts_name):
@@ -50,7 +60,12 @@ def courts_into_code(courts_name):
         if courts_name == value:
             return key
 
-
+def is_json(myjson):
+  try:
+    json.loads(myjson)
+  except ValueError as e:
+    return False
+  return True
 
 def get_context_25(cookies, text, courts, date_from, date_to):
 
@@ -98,7 +113,7 @@ def get_context_25(cookies, text, courts, date_from, date_to):
 
     if courts != '':
         json_data["Courts"] = [courts_into_code(courts)]
-
+    print(json_data)
     # запрос для получения всех совпадений от ras.arbitr.ru
     response = requests.post('https://ras.arbitr.ru/Ras/Search',
                              cookies=cookies,
@@ -106,16 +121,18 @@ def get_context_25(cookies, text, courts, date_from, date_to):
                              json=json_data,
                              # proxies=proxies
                              )
-    try:
+    answer = {}
+    if is_json(response.text):
         answer = response.json()
-    except:
-        print("Доступ запрещен, вас обнаружили, слишком много запросов")
+        print(answer['Result']['PagesCount'], answer['Result']['TotalCount'])
+        return answer
+    else:
+        print("Скорее всего вас заблокировали, для проверки, options.headless = False")
+        sys.exit()
 
-    print(answer['Result']['PagesCount'], answer['Result']['TotalCount'])
-    return answer
 
 def get_into_and_search(text, parent_context, cookies):
-
+    print("Итерация...")
     headers_2 = {
         'authority': 'ras.arbitr.ru',
         'accept': '*/*',
@@ -166,24 +183,40 @@ def get_into_and_search(text, parent_context, cookies):
                 print("успех")
                 json_answer_data.append(i)
                 break
-        print("Итерация...")
-        time.sleep(1.5)
+
+        time.sleep(uniform(1.0, 3.0))
     return json_answer_data
+
+
+def search(values):
+    text_search = values[0]
+    courts_search = values[1]
+    date_from = values['-IN-']
+    date_to = values['-IN2-']
+    print(text_search)
+    cookies = selenium_det_cookies()
+    data_page_1 = get_context_25(cookies, text_search, courts_search , date_from, date_to)
+    answer = get_into_and_search(text_search, data_page_1, cookies)
+    if len(answer) == 0:
+        print("Не удалось ничего найти")
+    to_excel(answer)
 
 
 def main():
 
     values = menu()
-    text_search = values[0]
-    courts_search = values[1]
-    date_from = values['-IN-']
-    date_to = values['-IN2-']
+    search(values)
+    # p1 = Process(target=search, args=(values, ))
+    # p1.start()
+    # p2 = Process(target=loading)
+    # p2.start()
+    #
+    # if p1.is_alive():
+    #     p2.do_run = False
+    #
+    # p1.join()
+    # p2.join()
 
-
-    cookies = selenium_det_cookies()
-    data_page_1 = get_context_25(cookies, courts_search, text_search, date_from, date_to)
-    answer = get_into_and_search(text_search, data_page_1, cookies)
-    to_excel(answer)
 
 
 
