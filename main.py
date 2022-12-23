@@ -132,7 +132,7 @@ def get_context_25(cookies, text, courts, date_from, date_to):
 
 
 def get_into_and_search(text, parent_context, cookies):
-    print("Итерация...")
+
     headers_2 = {
         'authority': 'ras.arbitr.ru',
         'accept': '*/*',
@@ -160,7 +160,7 @@ def get_into_and_search(text, parent_context, cookies):
     text_split_search = text.split()
 
     for i in parent_context['Result']['Items']:
-
+        print("Итерация...")
         response_2 = requests.post(
             'https://ras.arbitr.ru/Ras/HtmlDocument/' + i['Id'],
             cookies=cookies,
