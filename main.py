@@ -1,57 +1,224 @@
-import PySimpleGUI as sg
+import json
+import os
+import sys
+import threading
+import time
+from random import uniform
 
-sg.theme('DarkBlue')   # Add a touch of color
-# All the stuff inside your window.
-layout = [  [sg.Text('Добро пожаловать в наше приложение', pad=(140,30), font='Courier` 15')],
-            [sg.Text('Введите текст', pad=(5,30), font='Courier` 13', justification='left', size = (13, 1)), sg.MLine(size=(55,6), enter_submits=True)],
-            [sg.Text('Суд', pad=(5,20), font='Courier` 13', justification='left', size = (13, 1)), sg.Combo(
-             ['Верховный Суд РФ', 'Высший Арбитражный Суд РФ','АС Волго-Вятского округа',
-              'АС Восточно-Сибирского округа','АС Дальневосточного округа','АС Западно-Сибирского округа',
-              'АС Московского округа','АС Поволжского округа','АС Северо-Западного округа',
-              'АС Северо-Кавказского округа','АС Уральского округа','АС Центрального округа',
-              '1 арбитражный апелляционный суд','2 арбитражный апелляционный суд', "3 арбитражный апелляционный суд",
-              "4 арбитражный апелляционный суд", "5 арбитражный апелляционный суд", "6 арбитражный апелляционный суд",
-              "7 арбитражный апелляционный суд", "8 арбитражный апелляционный суд", "9 арбитражный апелляционный суд",
-              "10 арбитражный апелляционный суд", "11 арбитражный апелляционный суд", "12 арбитражный апелляционный суд",
-              "13 арбитражный апелляционный суд", "14 арбитражный апелляционный суд", "15 арбитражный апелляционный суд",
-              "16 арбитражный апелляционный суд", "17 арбитражный апелляционный суд", "18 арбитражный апелляционный суд",
-              "19 арбитражный апелляционный суд", "20 арбитражный апелляционный суд", "21 арбитражный апелляционный суд",
-              "АС Алтайского края", "АС Амурской области", "АС Архангельской области", "АС Астраханской области",
-              "АС Белгородской области", "АС Брянской области", "АС Владимирской области", "АС Волгоградской области",
-              "АС Вологодской области", "АС Воронежской области", "АС города Москвы", "АС города Санкт-Петербурга и Ленинградской области",
-              "АС города Севастополя", "АС Донецкой Народной Республики", "АС Еврейской автономной области", "АС Забайкальского края",
-              "АС Запорожской области", "АС Ивановской области", "АС Иркутской области", "АС Кабардино-Балкарской Республики",
-              "АС Калининградской области", "АС Калужской области", "АС Камчатского края", "АС Карачаево-Черкесской Республики",
-              "АС Кемеровской области", "АС Кировской области", "АС Коми-Пермяцкого АО", "АС Костромской области",
-              "АС Краснодарского края", "АС Красноярского края", "АС Курганской области", "АС Курской области",
-              "АС Липецкой области", "АС Луганской Народной Республики", "АС Магаданской области", "АС Московской области",
-              "АС Мурманской области", "АС Нижегородской области", "АС Новгородской области", "АС Новосибирской области",
-              "АС Омской области", "АС Оренбургской области", "АС Орловской области", "АС Пензенской области", "АС Пермского края",
-              "АС Приморского края", "АС Псковской области", "АС Республики Адыгея", "АС Республики Алтай", "АС Республики Башкортостан",
-              "АС Республики Бурятия", "АС Республики Дагестан", "АС Республики Ингушетия", "АС Республики Калмыкия",
-              "АС Республики Карелия", "АС Республики Коми", "АС Республики Крым", "АС Республики Марий Эл",
-              "АС Республики Мордовия", "АС Республики Саха", "АС Республики Северная Осетия", "АС Республики Татарстан",
-              "АС Республики Тыва", "АС Республики Хакасия", "АС Ростовской области", "АС Рязанской области",
-              "АС Самарской области", "АС Саратовской области", "АС Сахалинской области", "АС Свердловской области",
-              "АС Смоленской области", "АС Ставропольского края", "АС Тамбовской области", "АС Тверской области",
-              "АС Томской области", "АС Тульской области", "АС Тюменской области", "АС Удмуртской Республики",
-              "АС Ульяновской области", "АС Хабаровского края", "АС Ханты-Мансийского АО", "АС Херсонской области",
-              "АС Челябинской области", "АС Чеченской Республики", "АС Чувашской Республики", "АС Чукотского АО",
-              "АС Ямало-Ненецкого АО", "АС Ярославской области", "ПСП Арбитражного суда Пермского края",
-              "ПСП Арбитражный суд Архангельской области", "Суд по интеллектуальным правам"], size = (55,1), readonly=True)],
-            [sg.Text('Период', pad=(5,10), font='Courier` 13', justification='left', size = (16, 1)), sg.CalendarButton('С', close_when_date_chosen=True,  target='-IN-', location=(750,500), no_titlebar=False, size =(5,1), pad=(20,0)),
-             sg.Input(key='-IN-', size=(9,1), readonly=True, disabled_readonly_background_color='#335267'), sg.CalendarButton('По', close_when_date_chosen=True,  target='-IN2-', location=(750,500), no_titlebar=False, size =(5,1), pad=(20,0)),
-             sg.Input(key='-IN2-', size=(9,1), readonly=True,disabled_readonly_background_color='#335267')],
-            [sg.Button('Ok', pad=(140,20), size=(15,2)), sg.Button('Cancel', pad=(0,20), size=(15,2))],]
+import requests
+from multiprocessing import Process
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from menu import menu
+from excel import to_excel
 
-# Create the Window
-window = sg.Window('Aequum', layout,location=(700,450))
-# Event Loop to process "events" and get the "values" of the inputs
-while True:
-    event, values = window.read()
-    if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
-        break
-    print('Текст', values[0])
-    print('Суд', values[1])
-    print('Период', 'C', values['-IN-'], 'По', values['-IN2-'])
-window.close()
+
+WORK = True
+def selenium_det_cookies():
+
+    # Настройки
+    options = Options()
+    options.headless = True
+    # циганская магия которая помогла обойти защиту
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    # прокси для избежания блокировки
+    # options.add_argument(f"--proxy-server-{proxies['https']}")
+    driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
+    driver.maximize_window()
+
+    # Запускаем селениум
+    driver.get("https://ras.arbitr.ru")
+
+    # Находим кнопку
+    btn_submit = driver.find_element(By.XPATH, "//*[@id=\"b-form-submit\"]/div/button")
+    btn_submit.click()
+
+    # Получаем куки
+    time.sleep(7)
+    cookiess = driver.get_cookies()
+    cookies = {}
+    for ck in cookiess:
+        cookies[ck["name"]] = ck['value']
+    # проверка получили ли мы нужные куки
+    if "wasm" in cookies.keys():
+        print("Нужные куки получены")
+        return cookies
+    else:
+        print("Что-то пошло не так")
+        WORK = False
+
+
+def courts_into_code(courts_name):
+    with open("static_data/courts_list.json", 'r', encoding="utf-8") as file:
+        data = json.load(file)
+
+    for key, value in data.items():
+        if courts_name == value:
+            return key
+
+def is_json(myjson):
+  try:
+    json.loads(myjson)
+  except ValueError as e:
+    return False
+  return True
+
+def get_context_25(cookies, text, courts, date_from, date_to):
+
+    headers_1 = {
+        'authority': 'ras.arbitr.ru',
+        'accept': 'application/json, text/javascript, */*',
+        'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+        'content-type': 'application/json',
+        # 'cookie': 'CUID=6f8302f1-1b0d-4972-a63e-d452ffe37471:ouexLSV98QYuZFAeidMBHA==; _ga=GA1.2.2137527451.1670217850; _ym_uid=1670217850106978457; _ym_d=1670217850; ASP.NET_SessionId=w1tpo30qwcwzxmm1pv1d0n4u; is_agree_privacy_policy=true; __ddg1_=b4jlbszVg4mIWLkVIGFf; pr_fp=991ff8667cb35dc80204e4a53fbf748c0599ecfaba096a1783fb4a1bc1b0b4f3; _gid=GA1.2.1433893127.1671430957; rcid=2af6eeb8-169a-4dd8-a2b3-f8a6326df2d0; _ym_isad=2; wasm=582b2b282a6d602294ecbf51dfc6e027',
+        'origin': 'https://ras.arbitr.ru',
+        'referer': 'https://ras.arbitr.ru/',
+        'sec-ch-ua': '"Opera";v="93", "Not/A)Brand";v="8", "Chromium";v="107"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0 (Edition Yx 02)',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+
+    if date_from == '':
+        date_from = "2000-01-01T00:00:00"
+    else:
+        date_from = date_from.split()
+        date_from = date_from[0] + "T" + "00:00:00"
+
+    if date_to == '':
+        date_to = "2030-01-01T23:59:59"
+    else:
+        date_to = date_to.split()
+        date_to = date_to[0] + "T" + "23:59:59"
+
+    json_data = {
+        'GroupByCase': False,
+        'Count': 25,
+        'Page': 1,
+        'DateFrom': date_from,
+        'DateTo': date_to,
+        'Sides': [],
+        'Judges': [],
+        'Cases': [],
+        'Text': text,
+    }
+
+    if courts != '':
+        json_data["Courts"] = [courts_into_code(courts)]
+    print(json_data)
+    # запрос для получения всех совпадений от ras.arbitr.ru
+    response = requests.post('https://ras.arbitr.ru/Ras/Search',
+                             cookies=cookies,
+                             headers=headers_1,
+                             json=json_data,
+                             # proxies=proxies
+                             )
+    answer = {}
+    if is_json(response.text):
+        answer = response.json()
+        print(answer['Result']['PagesCount'], answer['Result']['TotalCount'])
+        return answer
+    else:
+        print("Скорее всего вас заблокировали, для проверки, options.headless = False")
+        sys.exit()
+
+
+def get_into_and_search(text, parent_context, cookies):
+
+    headers_2 = {
+        'authority': 'ras.arbitr.ru',
+        'accept': '*/*',
+        'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+        # 'cookie': 'CUID=6f8302f1-1b0d-4972-a63e-d452ffe37471:ouexLSV98QYuZFAeidMBHA==; _ga=GA1.2.2137527451.1670217850; _ym_uid=1670217850106978457; _ym_d=1670217850; ASP.NET_SessionId=w1tpo30qwcwzxmm1pv1d0n4u; is_agree_privacy_policy=true; __ddg1_=b4jlbszVg4mIWLkVIGFf; pr_fp=991ff8667cb35dc80204e4a53fbf748c0599ecfaba096a1783fb4a1bc1b0b4f3; _gid=GA1.2.1433893127.1671430957; rcid=2af6eeb8-169a-4dd8-a2b3-f8a6326df2d0; _ym_isad=2; wasm=b9dcaac2a6024df09f5398f14ea4b639',
+        'origin': 'https://ras.arbitr.ru',
+        'recaptchatoken': 'undefined',
+        'referer': 'https://ras.arbitr.ru/',
+        'sec-ch-ua': '"Opera";v="93", "Not/A)Brand";v="8", "Chromium";v="107"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0 (Edition Yx 02)',
+        'x-requested-with': 'XMLHttpRequest',
+    }
+
+    data = {
+        'hilightText': text,
+    }
+
+    json_answer_data = []
+
+    text_split_search = text.split()
+
+    for i in parent_context['Result']['Items']:
+        print("Итерация...")
+        response_2 = requests.post(
+            'https://ras.arbitr.ru/Ras/HtmlDocument/' + i['Id'],
+            cookies=cookies,
+            headers=headers_2,
+            data=data,
+            # proxies=proxies
+        )
+        with open('pars_data/index.html', 'w', encoding="utf-8") as file:
+            file.write('')
+            file.write(response_2.text)
+        with open('pars_data/index.html', 'r', encoding="utf-8") as file:
+            hilight_text_data = file.read()
+
+        soup = BeautifulSoup(hilight_text_data, "lxml")
+        search_words = soup.find_all("span", class_="g-highlight")
+        for j in range(len(search_words)):
+            search_words[j] = search_words[j].text
+        for j in range(len(search_words) - len(text_split_search)):
+            if search_words[j:j + len(text_split_search)] == text_split_search:
+                print("успех")
+                json_answer_data.append(i)
+                break
+
+        time.sleep(uniform(1.0, 3.0))
+    return json_answer_data
+
+
+def search(values):
+    text_search = values[0]
+    courts_search = values[1]
+    date_from = values['-IN-']
+    date_to = values['-IN2-']
+    print(text_search)
+    cookies = selenium_det_cookies()
+    data_page_1 = get_context_25(cookies, text_search, courts_search , date_from, date_to)
+    answer = get_into_and_search(text_search, data_page_1, cookies)
+    if len(answer) == 0:
+        print("Не удалось ничего найти")
+    to_excel(answer)
+
+
+def main():
+
+    values = menu()
+    search(values)
+    # p1 = Process(target=search, args=(values, ))
+    # p1.start()
+    # p2 = Process(target=loading)
+    # p2.start()
+    #
+    # if p1.is_alive():
+    #     p2.do_run = False
+    #
+    # p1.join()
+    # p2.join()
+
+
+
+
+if __name__ == '__main__':
+    main()

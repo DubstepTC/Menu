@@ -1,0 +1,936 @@
+{
+    "Result": {
+        "PagesCount": 40,
+        "TotalCount": 500035,
+        "NumOnPage": 25,
+        "Page": 1,
+        "ReturnCount": 1000,
+        "Years": [
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022
+        ],
+        "Items": [
+            {
+                "Id": "727c68bf-316c-438e-8b32-14ac7559af04",
+                "CaseId": "873e358a-7243-4669-9649-971575a4515d",
+                "RegistrationDate": "25.12.2022",
+                "InstanceNumber": "А32-47430/2021",
+                "CaseNumber": "А32-47430/2021",
+                "FileName": "А32-47430-2021__20221225.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Краснодарского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "ce643fc6-03fa-45d9-a580-dc05be04a727",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об отказе в удовлетворении ходатайства об исключении имущества из конкурсной массы"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "e05c9b49-a671-449a-9484-b9620cb5613f",
+                "CaseId": "9ddd6ac8-3593-485a-b34d-49a1aba8a6fc",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А19-10579/2022",
+                "CaseNumber": "А19-10579/2022",
+                "FileName": "А19-10579-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Иркутской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "60139b3f-d3ed-47c1-a42a-88247a0a4bb6",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О включении требований в реестр требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "e05c9b49-a671-449a-9484-b9620cb5613f",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ИРКУТСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Антонова Светлана Николаевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671631760000)/",
+                        "DateValidUntil": "/Date(1688589840000)/",
+                        "EffectiveDate": "/Date(1649709840000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1060173,
+                        "EffectiveDateString": "11.04.2022 23:44:00",
+                        "DateValidUntilString": "05.07.2023 23:44:00",
+                        "DateCheckString": "21.12.2022 17:09:20"
+                    }
+                ]
+            },
+            {
+                "Id": "35aac8d4-581f-42a1-84ac-cdf37bf95634",
+                "CaseId": "80c7d80a-c848-44f6-831f-aeea9c09004f",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А67-1398/2022",
+                "CaseNumber": "А67-1398/2022",
+                "FileName": "А67-1398-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Томской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "35aac8d4-581f-42a1-84ac-cdf37bf95634",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ТОМСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Петров Антон Александрович",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671630378000)/",
+                        "DateValidUntil": "/Date(1687481700000)/",
+                        "EffectiveDate": "/Date(1648609680000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1075696,
+                        "EffectiveDateString": "30.03.2022 6:08:00",
+                        "DateValidUntilString": "23.06.2023 3:55:00",
+                        "DateCheckString": "21.12.2022 16:46:18"
+                    }
+                ]
+            },
+            {
+                "Id": "349f3ef2-1633-460e-9c5d-dedbe4d8696a",
+                "CaseId": "67a0e39a-85ea-4bfe-9189-542ea30de4b4",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А03-22165/2017",
+                "CaseNumber": "А03-22165/2017",
+                "FileName": "А03-22165-2017__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Алтайского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "9c7ebd0e-9405-484e-a156-6f861bd7476d",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О процессуальном правопреемстве"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "349f3ef2-1633-460e-9c5d-dedbe4d8696a",
+                        "Organization": "АРБИТРАЖНЫЙ СУД АЛТАЙСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "Донцова Анжелика Юрьевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671629466000)/",
+                        "DateValidUntil": "/Date(1684015140000)/",
+                        "EffectiveDate": "/Date(1645135140000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1062779,
+                        "EffectiveDateString": "18.02.2022 0:59:00",
+                        "DateValidUntilString": "14.05.2023 0:59:00",
+                        "DateCheckString": "21.12.2022 16:31:06"
+                    }
+                ]
+            },
+            {
+                "Id": "58ad8dcc-21e2-43c9-a8f7-91e138880878",
+                "CaseId": "1f4d3b68-0095-4798-ab97-6459311bcb12",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А03-13792/2022",
+                "CaseNumber": "А03-13792/2022",
+                "FileName": "А03-13792-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Алтайского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3c5f3f4c-f7d5-4824-96aa-e38918086899",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об утверждении финансового управляющего"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "58ad8dcc-21e2-43c9-a8f7-91e138880878",
+                        "Organization": "АРБИТРАЖНЫЙ СУД АЛТАЙСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "Смотрова Елена Дмитриевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671627629000)/",
+                        "DateValidUntil": "/Date(1682989059000)/",
+                        "EffectiveDate": "/Date(1643763459000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1053552,
+                        "EffectiveDateString": "02.02.2022 3:57:39",
+                        "DateValidUntilString": "02.05.2023 3:57:39",
+                        "DateCheckString": "21.12.2022 16:00:29"
+                    }
+                ]
+            },
+            {
+                "Id": "efa79da5-0d7d-49a5-bea4-8a31c2808081",
+                "CaseId": "1f4d3b68-0095-4798-ab97-6459311bcb12",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А03-13792/2022",
+                "CaseNumber": "А03-13792/2022",
+                "FileName": "А03-13792-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Алтайского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "81c2354e-994e-44e6-9243-b77129f008fe",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об освобождении арбитражного управляющего от исполнения своих обязанностей"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "efa79da5-0d7d-49a5-bea4-8a31c2808081",
+                        "Organization": "АРБИТРАЖНЫЙ СУД АЛТАЙСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "Смотрова Елена Дмитриевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671627584000)/",
+                        "DateValidUntil": "/Date(1682989059000)/",
+                        "EffectiveDate": "/Date(1643763459000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1053551,
+                        "EffectiveDateString": "02.02.2022 3:57:39",
+                        "DateValidUntilString": "02.05.2023 3:57:39",
+                        "DateCheckString": "21.12.2022 15:59:44"
+                    }
+                ]
+            },
+            {
+                "Id": "49047776-33f3-4145-809f-241e426ecd18",
+                "CaseId": "9bf2d830-6215-48e7-b2e6-7bc393aafcf4",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А59-703/2021",
+                "CaseNumber": "А59-703/2021",
+                "FileName": "А59-703-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Сахалинской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "49047776-33f3-4145-809f-241e426ecd18",
+                        "Organization": "Арбитражный суд Сахалинской области",
+                        "Status": 0,
+                        "Owner": "Караман Юлия Александровна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671627255000)/",
+                        "DateValidUntil": "/Date(1680020192000)/",
+                        "EffectiveDate": "/Date(1640708192000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1059786,
+                        "EffectiveDateString": "28.12.2021 19:16:32",
+                        "DateValidUntilString": "28.03.2023 19:16:32",
+                        "DateCheckString": "21.12.2022 15:54:15"
+                    }
+                ]
+            },
+            {
+                "Id": "b19f76ac-7244-4fe6-8d38-cd38212d7e56",
+                "CaseId": "4dd920b7-0356-4427-aa73-c0eb39355b8f",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А19-25347/2021",
+                "CaseNumber": "А19-25347/2021",
+                "FileName": "А19-25347-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Иркутской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "60139b3f-d3ed-47c1-a42a-88247a0a4bb6",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О включении требований в реестр требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "b19f76ac-7244-4fe6-8d38-cd38212d7e56",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ИРКУТСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Щуко Владимир Андреевич",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671626978000)/",
+                        "DateValidUntil": "/Date(1689111300000)/",
+                        "EffectiveDate": "/Date(1650231300000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1056664,
+                        "EffectiveDateString": "18.04.2022 0:35:00",
+                        "DateValidUntilString": "12.07.2023 0:35:00",
+                        "DateCheckString": "21.12.2022 15:49:38"
+                    }
+                ]
+            },
+            {
+                "Id": "297a89df-67e8-4c3d-99a4-2636c55ee9a9",
+                "CaseId": "145aec22-31eb-46a8-946d-ead9434e6bc3",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А59-2623/2021",
+                "CaseNumber": "А59-2623/2021",
+                "FileName": "А59-2623-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Сахалинской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "297a89df-67e8-4c3d-99a4-2636c55ee9a9",
+                        "Organization": "Арбитражный суд Сахалинской области",
+                        "Status": 0,
+                        "Owner": "Караман Юлия Александровна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671626958000)/",
+                        "DateValidUntil": "/Date(1680020192000)/",
+                        "EffectiveDate": "/Date(1640708192000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1055308,
+                        "EffectiveDateString": "28.12.2021 19:16:32",
+                        "DateValidUntilString": "28.03.2023 19:16:32",
+                        "DateCheckString": "21.12.2022 15:49:18"
+                    }
+                ]
+            },
+            {
+                "Id": "cb8f913f-e221-44de-bf90-72123e750af1",
+                "CaseId": "a3e6cb23-e7ff-4672-b03d-9f606c6850f8",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А58-2489/2021",
+                "CaseNumber": "А58-2489/2021",
+                "FileName": "А58-2489-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Саха",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "cb8f913f-e221-44de-bf90-72123e750af1",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ САХА (ЯКУТИЯ)",
+                        "Status": 0,
+                        "Owner": "Андреев Владимир Анатольевич",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671632745000)/",
+                        "DateValidUntil": "/Date(1679876519000)/",
+                        "EffectiveDate": "/Date(1640564519000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1059592,
+                        "EffectiveDateString": "27.12.2021 3:21:59",
+                        "DateValidUntilString": "27.03.2023 3:21:59",
+                        "DateCheckString": "21.12.2022 17:25:45"
+                    }
+                ]
+            },
+            {
+                "Id": "85e23654-97bb-4700-87d3-1d636bfa9224",
+                "CaseId": "6b76798d-dc43-4e97-9a09-522ebcc223fa",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А50-71/2018",
+                "CaseNumber": "А50-71/2018",
+                "FileName": "А50-71-2018__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Пермского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "9c7ebd0e-9405-484e-a156-6f861bd7476d",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О процессуальном правопреемстве"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "85e23654-97bb-4700-87d3-1d636bfa9224",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ПЕРМСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "РАХМАТУЛЛИН ИЛЬДАР ИБРАГИМОВИЧ",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1671624062000)/",
+                        "DateValidUntil": "/Date(1679020047000)/",
+                        "EffectiveDate": "/Date(1639708047000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1067299,
+                        "EffectiveDateString": "17.12.2021 5:27:27",
+                        "DateValidUntilString": "17.03.2023 5:27:27",
+                        "DateCheckString": "21.12.2022 15:01:02"
+                    }
+                ]
+            },
+            {
+                "Id": "e9eb908a-fb66-491a-b1a9-9fe18fd2fdd8",
+                "CaseId": "883ee4d8-b606-427e-b524-80909285f57c",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А58-7821/2021",
+                "CaseNumber": "А58-7821/2021",
+                "FileName": "А58-7821-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Саха",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "e9eb908a-fb66-491a-b1a9-9fe18fd2fdd8",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ САХА (ЯКУТИЯ)",
+                        "Status": 0,
+                        "Owner": "Пихтова Анна Витальевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671623857000)/",
+                        "DateValidUntil": "/Date(1680030037000)/",
+                        "EffectiveDate": "/Date(1640718037000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1047394,
+                        "EffectiveDateString": "28.12.2021 22:00:37",
+                        "DateValidUntilString": "28.03.2023 22:00:37",
+                        "DateCheckString": "21.12.2022 14:57:37"
+                    }
+                ]
+            },
+            {
+                "Id": "bef8a211-03f0-4c2a-9db1-c5bb80774610",
+                "CaseId": "883ee4d8-b606-427e-b524-80909285f57c",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А58-7821/2021",
+                "CaseNumber": "А58-7821/2021",
+                "FileName": "А58-7821-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Саха",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "bef8a211-03f0-4c2a-9db1-c5bb80774610",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ САХА (ЯКУТИЯ)",
+                        "Status": 0,
+                        "Owner": "Пихтова Анна Витальевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671623712000)/",
+                        "DateValidUntil": "/Date(1680030037000)/",
+                        "EffectiveDate": "/Date(1640718037000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1047393,
+                        "EffectiveDateString": "28.12.2021 22:00:37",
+                        "DateValidUntilString": "28.03.2023 22:00:37",
+                        "DateCheckString": "21.12.2022 14:55:12"
+                    }
+                ]
+            },
+            {
+                "Id": "0b456ee3-5269-46ff-aa25-45b03bec1019",
+                "CaseId": "20ed50ce-fce6-47a3-bb7a-6862955312eb",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А19-7397/2021",
+                "CaseNumber": "А19-7397/2021",
+                "FileName": "А19-7397-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Иркутской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "fcdfeb88-63bd-4111-8289-ddc8bdcfcbe3",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об отложении рассмотрения заявления/жалобы"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "0b456ee3-5269-46ff-aa25-45b03bec1019",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ИРКУТСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Толокольникова Екатерина Сергеевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671622792000)/",
+                        "DateValidUntil": "/Date(1686186540000)/",
+                        "EffectiveDate": "/Date(1647306600000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Казначейство России",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1070828,
+                        "EffectiveDateString": "15.03.2022 4:10:00",
+                        "DateValidUntilString": "08.06.2023 4:09:00",
+                        "DateCheckString": "21.12.2022 14:39:52"
+                    }
+                ]
+            },
+            {
+                "Id": "b57b63ff-efc2-47d8-b6d9-cd9d3b385c8f",
+                "CaseId": "8a89b410-25d9-4c17-958e-5e626bd19884",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А60-5294/2020",
+                "CaseNumber": "А60-5294/2020",
+                "FileName": "А60-5294-2020__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Свердловской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "da0d6abb-053f-4300-b7d7-8132aff1abf7",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О продлении срока реализации имущества"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "b57b63ff-efc2-47d8-b6d9-cd9d3b385c8f",
+                        "Organization": "АРБИТРАЖНЫЙ СУД СВЕРДЛОВСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Силищев Иван Александрович",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1671622763000)/",
+                        "DateValidUntil": "/Date(1679022137000)/",
+                        "EffectiveDate": "/Date(1639710137000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1048046,
+                        "EffectiveDateString": "17.12.2021 6:02:17",
+                        "DateValidUntilString": "17.03.2023 6:02:17",
+                        "DateCheckString": "21.12.2022 14:39:23"
+                    }
+                ]
+            },
+            {
+                "Id": "12c1d4e0-3d7a-411a-88ee-31dbdd9f9758",
+                "CaseId": "a8aac7c1-d6cc-464e-8518-8a1c6bbd282f",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А50-31922/2020",
+                "CaseNumber": "А50-31922/2020",
+                "FileName": "А50-31922-2020__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Пермского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "70817eb8-9bff-4781-a96d-10958fcd081a",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О замене кредитора в реестре требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "12c1d4e0-3d7a-411a-88ee-31dbdd9f9758",
+                        "Organization": "АРБИТРАЖНЫЙ СУД ПЕРМСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "КУДРИНА ЭЛЬМИРА РАИСОВНА",
+                        "OwnerPost": "",
+                        "DateCheck": "/Date(1671621610000)/",
+                        "DateValidUntil": "/Date(1679017352000)/",
+                        "EffectiveDate": "/Date(1639705352000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1061454,
+                        "EffectiveDateString": "17.12.2021 4:42:32",
+                        "DateValidUntilString": "17.03.2023 4:42:32",
+                        "DateCheckString": "21.12.2022 14:20:10"
+                    }
+                ]
+            },
+            {
+                "Id": "98e09235-0f8a-48ca-a33e-42b8c43c9343",
+                "CaseId": "1f595a60-2f3b-44ac-98b4-28e0fc9bae11",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А03-7212/2011",
+                "CaseNumber": "А03-7212/2011",
+                "FileName": "А03-7212-2011__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Алтайского края",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "917281d7-99c3-4442-8c5e-a80824fff053",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "Об индексации присужденных денежных сумм"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "98e09235-0f8a-48ca-a33e-42b8c43c9343",
+                        "Organization": "АРБИТРАЖНЫЙ СУД АЛТАЙСКОГО КРАЯ",
+                        "Status": 0,
+                        "Owner": "Ивина Ирина Анатольевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671617869000)/",
+                        "DateValidUntil": "/Date(1681333853000)/",
+                        "EffectiveDate": "/Date(1642021853000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1053393,
+                        "EffectiveDateString": "13.01.2022 0:10:53",
+                        "DateValidUntilString": "13.04.2023 0:10:53",
+                        "DateCheckString": "21.12.2022 13:17:49"
+                    }
+                ]
+            },
+            {
+                "Id": "1af4fbd0-8f1e-40e1-8f6e-7b3babe6e39b",
+                "CaseId": "ce424739-e1f2-48a1-9abd-5b251ceab07b",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А53-21747/2022",
+                "CaseNumber": "А53-21747/2022",
+                "FileName": "А53-21747-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Ростовской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "60139b3f-d3ed-47c1-a42a-88247a0a4bb6",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О включении требований в реестр требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "1af4fbd0-8f1e-40e1-8f6e-7b3babe6e39b",
+                        "Organization": "Арбитражный суд Ростовской области",
+                        "Status": 0,
+                        "Owner": "Бруевич Валентина Сергеевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671616232000)/",
+                        "DateValidUntil": "/Date(1679890509000)/",
+                        "EffectiveDate": "/Date(1640578509000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1051025,
+                        "EffectiveDateString": "27.12.2021 7:15:09",
+                        "DateValidUntilString": "27.03.2023 7:15:09",
+                        "DateCheckString": "21.12.2022 12:50:32"
+                    }
+                ]
+            },
+            {
+                "Id": "3fb06733-71ad-480e-bfe8-eb792ba32a5a",
+                "CaseId": "b9b2bbc6-cdb6-42c8-b0eb-bbac843aef29",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А07-16030/2020",
+                "CaseNumber": "А07-16030/2020",
+                "FileName": "А07-16030-2020__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Башкортостан",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "006507b7-7924-4488-a55d-dcc5e6c9c2da",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О признании требований подлежащими удовлетворению за счет имущества, оставшегося после удовлетвтребований, включенных в реестр"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "004b1d8a-3e2b-40be-ab2a-836d66db0329",
+                "CaseId": "34fc9f37-1118-4327-9ae8-a1b8412d50c9",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А53-22172/2022",
+                "CaseNumber": "А53-22172/2022",
+                "FileName": "А53-22172-2022__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Ростовской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "60139b3f-d3ed-47c1-a42a-88247a0a4bb6",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О включении требований в реестр требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "004b1d8a-3e2b-40be-ab2a-836d66db0329",
+                        "Organization": "Арбитражный суд Ростовской области",
+                        "Status": 0,
+                        "Owner": "Бруевич Валентина Сергеевна",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671616093000)/",
+                        "DateValidUntil": "/Date(1679890509000)/",
+                        "EffectiveDate": "/Date(1640578509000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1056766,
+                        "EffectiveDateString": "27.12.2021 7:15:09",
+                        "DateValidUntilString": "27.03.2023 7:15:09",
+                        "DateCheckString": "21.12.2022 12:48:13"
+                    }
+                ]
+            },
+            {
+                "Id": "b77cc6a1-648e-4bef-83b3-fbb9ced62509",
+                "CaseId": "c2d32709-e63c-4e1b-b452-e84e7ab23fde",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А27-19036/2018",
+                "CaseNumber": "А27-19036/2018",
+                "FileName": "А27-19036-2018__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Кемеровской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "70817eb8-9bff-4781-a96d-10958fcd081a",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О замене кредитора в реестре требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "b77cc6a1-648e-4bef-83b3-fbb9ced62509",
+                        "Organization": "АРБИТРАЖНЫЙ СУД КЕМЕРОВСКОЙ ОБЛАСТИ",
+                        "Status": 0,
+                        "Owner": "Куль Артем Сергеевич",
+                        "OwnerPost": "Судья",
+                        "DateCheck": "/Date(1671615774000)/",
+                        "DateValidUntil": "/Date(1679530039000)/",
+                        "EffectiveDate": "/Date(1640218039000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1056679,
+                        "EffectiveDateString": "23.12.2021 3:07:19",
+                        "DateValidUntilString": "23.03.2023 3:07:19",
+                        "DateCheckString": "21.12.2022 12:42:54"
+                    }
+                ]
+            },
+            {
+                "Id": "01d37186-9dfa-4579-94f5-c7bc9c83e3b2",
+                "CaseId": "e1b5f6e7-3bff-483c-a491-d72397ed2183",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А41-78842/2015",
+                "CaseNumber": "А41-78842/2015",
+                "FileName": "А41-78842-2015__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Московской области",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "70817eb8-9bff-4781-a96d-10958fcd081a",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О замене кредитора в реестре требований кредиторов"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "1b39e80f-b610-4a65-82c2-cecd2ebb9a7a",
+                "CaseId": "0f917e5f-af91-425c-b3b1-32a48cac079f",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А40-147127/2020",
+                "CaseNumber": "А40-147127/2020",
+                "FileName": "А40-147127-2020__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС города Москвы",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": null
+            },
+            {
+                "Id": "5e64e541-0db4-4792-8cc5-602000ddedd9",
+                "CaseId": "cba613ab-be66-42d5-b0a4-089e18e7c00d",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А58-7474/2021",
+                "CaseNumber": "А58-7474/2021",
+                "FileName": "А58-7474-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Саха",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "5e64e541-0db4-4792-8cc5-602000ddedd9",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ САХА (ЯКУТИЯ)",
+                        "Status": 0,
+                        "Owner": "ГАЛЯМОВА НАТАЛЬЯ ГЕННАДЬЕВНА",
+                        "OwnerPost": "СУДЬЯ",
+                        "DateCheck": "/Date(1671614911000)/",
+                        "DateValidUntil": "/Date(1680119518000)/",
+                        "EffectiveDate": "/Date(1640807518000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1050460,
+                        "EffectiveDateString": "29.12.2021 22:51:58",
+                        "DateValidUntilString": "29.03.2023 22:51:58",
+                        "DateCheckString": "21.12.2022 12:28:31"
+                    }
+                ]
+            },
+            {
+                "Id": "43d6ee18-b7d7-4598-a74e-c6a8ddc0e40f",
+                "CaseId": "cba613ab-be66-42d5-b0a4-089e18e7c00d",
+                "RegistrationDate": "21.12.2022",
+                "InstanceNumber": "А58-7474/2021",
+                "CaseNumber": "А58-7474/2021",
+                "FileName": "А58-7474-2021__20221221.pdf",
+                "InstanceLevel": 1,
+                "Court": "АС Республики Саха",
+                "TypeId": "3f4a11f5-b269-4fe8-8243-957b5260c3d1",
+                "Type": "Определение",
+                "ContentTypesString": "3703bf24-2a0c-48d7-92cf-4ac2ae4eb9b4",
+                "DecisionTypeId": null,
+                "ContentTypes": [
+                    "О принятии заявления (ходатайства) к рассмотрению"
+                ],
+                "SphinxId": 0,
+                "DocumentCount": 0,
+                "SignatureInfo": [
+                    {
+                        "Id": "43d6ee18-b7d7-4598-a74e-c6a8ddc0e40f",
+                        "Organization": "АРБИТРАЖНЫЙ СУД РЕСПУБЛИКИ САХА (ЯКУТИЯ)",
+                        "Status": 0,
+                        "Owner": "ГАЛЯМОВА НАТАЛЬЯ ГЕННАДЬЕВНА",
+                        "OwnerPost": "СУДЬЯ",
+                        "DateCheck": "/Date(1671614817000)/",
+                        "DateValidUntil": "/Date(1680119518000)/",
+                        "EffectiveDate": "/Date(1640807518000)/",
+                        "OwnerEmail": null,
+                        "OwnerAddress": null,
+                        "Issuer": "Федеральное казначейство",
+                        "VerifyErrorMessage": null,
+                        "SignatureId": 1050459,
+                        "EffectiveDateString": "29.12.2021 22:51:58",
+                        "DateValidUntilString": "29.03.2023 22:51:58",
+                        "DateCheckString": "21.12.2022 12:26:57"
+                    }
+                ]
+            }
+        ]
+    },
+    "Message": "",
+    "Success": true,
+    "ServerDate": "/Date(1671714674980)/"
+}
