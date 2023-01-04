@@ -20,7 +20,7 @@ def selenium_det_cookies():
 
     # Настройки
     options = Options()
-    options.headless = True
+    options.headless = False
     # циганская магия которая помогла обойти защиту
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
