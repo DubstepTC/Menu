@@ -1,14 +1,10 @@
 ### Установка
-<<<<<<< HEAD
-К сожалению не удалось переместить проект в исполняемый файл exe
-=======
 Для того чтобы скачать приложение в exe скачайте и распакуйте архив:
 ```
 https://github.com/DubstepTC/Menu/tree/exe_project
 ```
 Далее запустите файл main.exe
 
->>>>>>> origin/master
 ```
 git clone https://github.com/DubstepTC/Menu.git
 ```
