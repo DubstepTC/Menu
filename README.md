@@ -94,4 +94,7 @@ data = {
 Текст - мясной продукции
 Дата С - 20.12.2022
 ```
+### Скриншоты программы
+![image](https://user-images.githubusercontent.com/77339480/210672632-3df6bb27-099c-42d3-93fa-9d65de99186e.png)
+![image](https://user-images.githubusercontent.com/77339480/210672759-f03871da-589c-4145-a5b1-e86dad4bfc6d.png)
 
